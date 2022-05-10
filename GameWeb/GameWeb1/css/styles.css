@@ -1,0 +1,565 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+
+/* start: global style rules */
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, label, strong {
+    line-height: 2;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 9px 20px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.badge.weapon{
+    background-color: #FF205F;
+}
+
+
+.badge.character {
+    background-color: #755cb6;
+}
+
+.badge.rpg,
+.badge.adventure {
+    background-color: #40ABF5;
+}
+
+.badge.levels {
+    background-color: #fb2010;
+}
+
+.badge.game-level {
+    background-color: #e65651;
+    color: #252525;
+}
+
+.shade {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+/* end: global style rules */
+
+/* start: header styles */
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #ff2720;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #ff3a20;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.video{
+    width: 96vw;
+   height: 100vh;
+   object-fit: cover;
+   overflow: hidden;
+   min-width: 100%;
+   min-height: 100%;
+
+
+}
+.video video{
+   height: auto;
+   width: 100%;
+    min-width: 100%;
+   min-height: 100%;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #ff2020;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ff2020;
+}
+.logo img{
+    
+    
+    
+    
+    position: absolute;
+    height: 40px;
+    width: 120px;
+
+    
+}
+
+#contact-button {
+    background-color: #ff2020;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+/* end: header styles */
+
+/* start:  styles */
+#image {
+    background: url('C:\Game Web\download.jpg') top center no-repeat;
+    
+}
+
+.marketing-text {
+    max-width: 1200px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+.marketing-text h1 {
+    color: #eee;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+.marketing-text span {
+    color: #ff2020;
+}
+
+.marketing-text h5 {
+    color: #eee;
+    font-size: 0.85em;
+    font-weight: 300;
+    max-width: 500px;
+    line-height: 2;
+    margin-bottom: 2.5em;
+}
+
+
+/* end:  styles */
+
+
+
+/* start: concept art styles */
+#concept-art {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png') top center no-repeat;
+    background-color: #eef2f6;
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+    padding: 70px 0 120px;
+}
+
+#concept-art h1 {
+    text-align: center;
+}
+
+#concept-art .box {
+    position: relative;
+    flex-basis: 31%;
+    background-color: #fff;
+}
+
+#concept-art .box .badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+#concept-art .box img {
+    width: 100%;
+}
+
+#concept-art .box .box-lower-section {
+    padding: 20px;
+}
+
+#concept-art .box .box-lower-section p {
+    color: #999;
+}
+
+#concept-art .box .box-lower-section a {
+    color: #999;
+    font-size: 0.8em;
+}
+/* end: recent games styles */
+
+/* start: levels styles */
+#levels {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/footer_bg_pattern.png') 0 0 repeat;
+    padding: 125px 0 105px;
+}
+
+#levels .flex {
+    position: relative;
+}
+
+#levels .badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#levels .badge.levels {
+    top: -32px;
+    left: 15px;
+}
+
+#levels .box {
+    background-color: #252525;
+    padding: 70px 20px 40px;
+    flex-basis: 45%;
+    position: relative;
+}
+
+#levels .box .levels-image {
+    float: left;
+    width: 30%;
+}
+
+#levels .box .levels-image img {
+    width: 100%;
+}
+
+#levels .box .levels-content {
+    float: left;
+    margin-left: 25px;
+    width: 60%;
+}
+
+#levels .box .levels-content h3 {
+    color: #d14646;
+    margin-top: 0;
+}
+
+#levels .box .levels-content label {
+    color: #999;
+    font-size: 0.75em;
+}
+
+#levels .box .levels-content label.prizes {
+    color: #dd4a4a;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+#levels .box .levels-content strong {
+    color: #eee;
+    font-size: 0.75em;
+}
+/* end: levels styles */
+
+
+
+/* start: footer styles */
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+/* .socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a img{
+    font-size: 2.1rem;
+    width: 40px;
+    transition: color .4s ease;
+}
+
+.socials a:hover img{
+    color: aqua;
+} */
+ul li:hover a{
+    color: #d14646;
+}
+
+/* end: footer styles */
+
+/* start: media queries */
+@media (max-width: 1200px) {
+    .flex {
+        max-width: 1000px;
+    }
+
+  
+
+    #levels .box .levels-content {
+        margin-left: 15px;
+    }
+
+    #levels .box .levels-content h3 {
+        font-size: 1.4em;
+        margin-bottom: 0.2em;
+    }
+}
+
+@media (max-width: 991px) {
+    .flex {
+        max-width: 720px;
+    }
+
+    nav ul li {
+        margin: 0 12px;
+        font-size: 0.85em;
+    }
+
+ 
+
+    #levels .box {
+        flex-basis: 42%;
+    }
+
+    #levels .box .levels-image {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    #levels .box .levels-content {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+  
+
+
+    footer .flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    footer small {
+        flex-basis: 100%;
+        font-size: 0.75em;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    footer ul {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0;
+    }
+} /* end 991px */
+
+@media (max-width: 767px) {
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .flex {
+        max-width: 540px;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 101%;
+        width: 100%;
+        background-color: #131313;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 15px 0 15px 20px;
+        border-bottom: 1px solid #ff2020;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .hamburger-menu {
+        display: block;
+        margin-top: 2px;
+    }
+
+    #-image {
+        height: 650px;
+        background-size: cover;
+    }
+
+    .marketing-text {
+        margin-top: -85px;
+    }
+
+    .marketing-text h1 {
+        font-size: 2.5em;
+    }
+
+
+
+    #recent-games {
+        padding: 60px 0;
+    }
+
+ 
+
+    #recent-games .flex,
+    #levels .flex {
+        flex-wrap: wrap;
+    }
+
+    #levels .box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    #levels .box .levels-image {
+        height: 400px;
+    }
+
+    
+
+    footer ul li {
+        margin: 0 10px;
+    }
+
+    footer ul li a {
+        font-size: 0.75em;
+    }
+} /* end 767px */
+
+@media (max-width: 400px) {
+    .logo img {
+        width: 150px;
+        margin-top: 2px;
+    }
+
+    #contact-button {
+        padding: 10px;
+        font-size: 0.65em;
+    }
+
+    #levels .box .levels-image {
+        height: 220px;
+    }
+}
+/* end: media queries */

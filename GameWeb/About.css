@@ -1,0 +1,101 @@
+/* About Section  */
+.about {
+	min-height: 50vh;
+	flex-direction: column;
+	
+}
+
+.about .about-info {
+	max-width: 1200px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+.about .about-info .about-info-heading {
+	font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: rgb(31, 31, 31);
+    font-family: 'Bebas Neue';
+}
+
+
+.about .about-info .about-info-desc {
+	font-size: 2rem;
+	line-height: 2rem;
+	margin-top: 10px;
+	padding: 0;
+	color: rgb(255, 0, 0);
+	font-weight: 700;
+	font-family: 'Smooch Sans', sans-serif;
+}
+.about .about-info .about-info-button {
+	padding: 1.6rem 2.6rem;
+	display: inline-block;
+	background-color: rgba(179, 8, 8, 0.856);
+	color: rgb(27, 24, 24);
+	text-decoration: none;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about .about-img {
+	margin-top: 50px;
+	display: block;
+}
+.about .about-img .about-img-wrapper {
+	margin-top: 50px;
+	height: auto;
+	max-width: 400px;
+	position: relative;
+	display: inline-block;
+}
+.about .about-img .about-img-wrapper img {
+	height: 100%;
+	width: 100%;
+}
+.about .about-img .about-img-wrapper::after {
+	position: absolute;
+	content: '';
+	right: -5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 70%;
+	height: 120%;
+	background-color: rgba(34, 33, 33, 0.158);
+	z-index: -1;
+}
+
+.about .bla{
+	float: left;
+}
+
+.video{
+    width: 96vw;
+   height: 100vh;
+   object-fit: cover;
+   overflow: hidden;
+   min-width: 100%;
+   min-height: 100%;
+   padding: 0;
+
+
+}
+.video video{
+   height: auto;
+   width: 100%;
+    min-width: 100%;
+   min-height: 100%;
+}
+video {
+    object-fit: contain;
+}
+
+
+
+/* End About Section  */

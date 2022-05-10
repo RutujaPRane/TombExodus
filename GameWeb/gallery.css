@@ -1,0 +1,112 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: aliceblue;
+} */
+#poster1 {
+  position: fixed;
+  width: 1519px;
+  height: auto;
+  z-index: -1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin: 40px 20px 0 20px; */
+}
+
+.container .heading{
+  margin-top: 10%;
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  margin: 20px;
+  color: rgb(31, 31, 31);
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #cc0000;
+}
+.container .heading h3 span {
+  color: #c41313;
+}
+
+.container .heading h3 span{
+  font-weight: 300;
+}
+
+.grid_container{
+  height: auto;
+  width: auto;
+}
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  grid-template-rows: repeat(3,264px);
+  grid-gap: 30px 30px;
+  position: absolute;
+  top: 40%; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+/* .grid-item{
+  border:thin gray solid;
+  padding:10px;
+} */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+  /* .img-wrapper {  
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: grid; 
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
+  
+
+} */
+/* .img-wrapper {  
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  
+} */
+
+/* .inner-img {
+  transition: 0.3s;
+} */
+
+/* .inner-img {
+  width: 100%;
+  cursor: pointer;
+} */
+
+.grid-item:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+/* .inner-img:hover {
+  transform: scale(1.1);
+} */
+
+/* Other styling elements, that are not necessary for the example */
+
+/* .img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 8px solid #000;
+} */
